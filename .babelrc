@@ -1,16 +1,16 @@
 {
-    "plugins": [
-        [
-            "module-resolver",
-            {
-                "root": [
-                    "./src"
-                ],
-                "alias": {
-                    // Add aliases here for absolute path imports
-                    // "test": "./test"
-                }
-            }
-        ]
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src"
+        ],
+        "alias": {
+          // Add aliases here for absolute path imports
+          // "test": "./test"
+        }
+      }
     ]
+  ]
 }
